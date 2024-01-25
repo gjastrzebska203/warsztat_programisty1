@@ -1,3 +1,5 @@
+import unittest
+
 def ciag_Fibonacciego(n):
     if n <= 0:
         return False
@@ -5,3 +7,6 @@ def ciag_Fibonacciego(n):
         return 1
     else:
         return ciag_Fibonacciego(n - 1) + ciag_Fibonacciego(n - 2)
+
+if __name__ == '__main__':
+    unittest.main()
