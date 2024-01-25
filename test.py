@@ -1,5 +1,5 @@
 import unittest
-from main import multiply
+from main import sum
 
 class TestMojProgram(unittest.TestCase):
     def test_sum(self):
